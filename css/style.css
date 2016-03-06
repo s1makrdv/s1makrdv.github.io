@@ -2777,7 +2777,7 @@ ul.pagination li > a:focus {
 	margin: 20px 0;
 }
 .vertical.hc-tabs {
-	margin: 40px 0;
+	margin: 0 0;
 }
 .vertical .nav-tabs,
 .vertical .tab-content {
