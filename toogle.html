@@ -1,0 +1,24 @@
+<html>
+<script type="text/javascript" 
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+</script>
+
+Спойлер <b class="spoiler-title">Показать/скрыть</b>
+<div class="spoiler-body">Скрытый текст, который появится при наведении</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.spoiler-body').hide();
+$('.spoiler-title').click(function(){
+    $(this).next().toggle()});
+});
+</script>
+
+<style>
+.spoiler-title{cursor:pointer;}
+.spoiler-body{display:none;background:#f1f1f1;}
+</style>
+
+</html>
+
+
