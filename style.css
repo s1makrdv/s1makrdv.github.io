@@ -1,0 +1,435 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+		
+}
+.page{
+    overflow-x:hidden;
+}
+
+/* цетровщик */
+
+.container{
+	/* border:2px solid green; */
+	width:960px;
+	margin:0 auto;
+    padding:0 ;
+	
+}
+
+/* КНОПКИ */
+
+.btn{
+	display:inline-block;
+	border:1px solid #00e0d0;
+	padding:8px 10px;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+
+.btn:after{
+	content:" ";
+	position:relative;
+	top:5px;
+	right:-10px;
+	float:right;
+	display: block;
+	height: 10px;  
+    width: 10px; 
+	background-image:url("../img/str.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.btn a{
+	text-decoration: none;
+	color:#00e0d0;
+	cursor:pointer;
+}
+.btn-hd{
+	position:absolute;
+	bottom:-80px;
+    right: 46%;
+	left:45%;
+    /* margin: auto; */
+}
+.btn-ab{
+	margin-top:40px;
+}
+.btn-tch{
+	margin-top:20px;
+}
+
+
+/* HEADER */
+
+.main-header{
+	height:650px;
+	color:#fff;
+	background-image:url("../img/dance8.jpg");
+	background-size:cover;
+	background-position:0 -80px;
+}
+.cont1{
+	position: relative;
+}
+.menu{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	box-sizing:border-box;
+	/* background-color:rgba(71,55,105,0.3); */
+	border-radius:10px 10px 10px 10px;
+}
+.menu.fixed{
+	position: fixed;
+	top: 0;
+	right:0px;
+	width: 100%;
+	padding-right:160px;
+	box-sizing:border-box;
+	background-color:rgba(71,55,105,0.5);
+	z-index:5;
+}
+.logo{
+	/* border:2px solid yellow; */
+	display:table-cell;
+}
+.menu-cell{
+	/* border:2px solid yellow; */
+	display:table-cell;
+	box-sizing:border-box;
+	
+}
+.menu-cell ul{
+	/* border:2px solid orange; */
+	display:table;
+	box-sizing:border-box;
+}
+.menu-cell li{
+	/* border:2px solid yellow; */
+	display:table-cell;
+	padding:20px 10px ;
+	
+}
+.menu a{
+	text-decoration:none;
+	color:#fff;
+}
+.menu a:hover{
+	color:#00e0d0;
+	transition:  1s ;
+}
+
+/* СЛАЙДЕР */
+
+.tabs-wrap{
+	position:relative;
+	/* border:2px solid yellow; */
+	width:100%;
+	padding-top:180px;
+}
+.actions{
+	padding-left:45%;
+	/* border:2px solid yellow; */
+    overflow: hidden;
+	width:100%;
+	padding-top:60px;
+	box-sizing:border-box;
+}
+.actions__item{
+	float: left;
+	display:block;
+    margin-right: 10px;
+    padding: 2px;
+    width: 10px;
+	height: 10px;
+	margin: 0 7px;
+	border:1px solid #00e0d0;
+	border-radius: 50px;
+}
+.actions__item.active{
+    background:#00e0d0;
+	transition:  1s ;
+}
+.tabs{
+    /* border:1px solid red; */
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+	margin-bottom:20px;
+}
+.tabs__item{
+    display: none;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.caption{
+	/* border:2px solid yellow; */
+}
+.textblock{
+	/* border:2px solid yellow; */
+	width:70%;
+	margin-top:10px;
+	font-size:19px;
+}
+.line{
+	width:50px;
+	height:1px;
+	margin-top:10px;
+	background-color:#00e0d0;
+}
+
+
+/* О НАС */
+
+.about{
+	/* height:400px; */
+}
+.about-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+}
+.about-cell{
+	/* border:2px solid yellow; */
+	display:table-cell;
+	padding:0px 10px;
+	vertical-align:middle;
+	box-sizing:border-box;
+}
+.close{
+	/* position: absolute; */
+	/* left:-9999999px; */
+	display:none;
+}
+.close.opened{
+	/* left:0; */
+	display:block;
+	
+}
+/* .knopka{ */
+	/* color:#00e0d0; */
+	/* cursor:pointer; */
+/* } */
+/* about.html */
+.story{
+	padding-bottom:100px;
+}
+
+/* УЧИТЕЛЯ */
+
+.teachers{
+	height:700px;
+	background-image:url("../img/dance10.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	box-sizing:border-box;
+	color:#fff;
+}
+.CAP{
+	padding:60px 0;
+	box-sizing:border-box;
+}
+.teachers-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	box-sizing:border-box;
+}
+.teachers-cell{
+	/* border:2px solid yellow; */
+	display:table-cell;
+	padding:0 40px;
+	box-sizing:border-box;
+}
+.fototeach{
+	width:100%;
+	height:260px;
+	background-color:grey;
+}
+.cover{
+	border:1px solid #00e0d0;
+}
+.teachersSlogan{
+	padding:60px 0;
+	box-sizing:border-box;
+}
+
+/* ПРЕДЛОЖЕНИЯ */
+.offers{
+	padding-bottom:110px;
+}
+.offers-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	box-sizing:border-box;
+}
+.offers-cell{
+	position:relative;
+	/* border:2px solid yellow; */
+	display:table-cell;
+	padding:110px 20px 0 20px;
+	box-sizing:border-box;
+}
+.off-icon{
+	position:absolute;
+	top:0;
+	left:37%;
+	width:70px;
+	height:100px;
+	background-image:url("../img/dancesprite.png");
+	background-size:cover;
+	z-index:3;
+}
+.off-icon1{
+	background-position:80px 0;
+}
+.off-icon2{
+	background-position:10px 0;
+}
+.off-icon3{
+	background-position:-65px 0;
+}
+
+/* offers.html */
+
+.CAP-ofin{
+	padding-top:250px;
+	box-sizing:border-box;
+}
+
+/* НОВОСТИ */
+
+.news{
+	height:700px;
+	background-image:url(../img/dance9.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#100a29;
+	box-sizing:border-box;
+	color:#fff;
+}
+.news-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	padding-top:50px;
+	box-sizing:border-box;
+}
+.news-cell{
+	/* border:2px solid yellow; */
+	display:table-cell;
+	padding:0 20px;
+	box-sizing:border-box;
+}
+
+/* FOTO */
+
+.fotoblock{
+	padding-bottom:60px;
+}
+.foto-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	box-sizing:border-box;
+}
+.foto-row{
+	/* border:2px solid yellow; */
+	display:table-row;
+}
+.foto-cell{
+	border:1px solid #fff;
+	display:table-cell;
+	width:200px;
+	height:200px;
+	background:#b6b6b6;
+}
+.foto-cell:hover{
+	border:1px solid #00e0d0;
+}
+
+/* VIDEO */
+
+.videoblock{
+	height:700px;
+	background-image:url(../img/dance10.jpg);
+	background-size:cover;
+	box-sizing:border-box;
+	color:#fff;
+}
+.video-table{
+	/* border:2px solid orange; */
+	display:table;
+	width:100%;
+	box-sizing:border-box;
+}
+.video-row{
+	/* border:2px solid yellow; */
+	display:table-row;
+}
+.video-cell{
+	border:3px solid #fff;
+	display:table-cell;
+	width:200px;
+	height:200px;
+	background:#b6b6b6;
+	box-sizing:border-box;
+}
+.video-cell:hover{
+	border:1px solid #00e0d0;
+}
+
+/* MUSIC */
+
+
+
+
+
+
+/* FOOTER */
+
+.main-footer{
+	height:400px;
+	padding:120px 0;
+	background-image:url(../img/dance2.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-color:#0c071f;
+	background-position:right;
+	box-sizing:border-box;
+	color:#fff;	
+}
+
+.rightfoot{
+	margin-top:30px;
+}
+.soc{
+	display:inline-block;
+	width:49px;
+	height:49px;
+	background-image:url("../img/soc.png");
+	background-size:cover;
+	border-radius:31px 31px;
+}
+.soc:hover{
+	background-color:#26e2d3;
+}
+.social1{
+	background-position:-66px 0;
+}
+.social2{
+	background-position:-1px 0;
+}
+.social3{
+	background-position:49px 0;
+}
